@@ -36,3 +36,16 @@ const score3 = 300
 
 console.log(Array.of(score1, score2, score3))
 
+
+
+// task in array complete the array by number done
+const arr = [1, 3, 5, 7, 9];
+let newarr = [];
+console.log(arr.length, arr[arr.length - 1])
+
+for (let index =  arr[0] ; index <=  arr[arr.length - 1]; index++) {
+    newarr.push(index)
+    
+}
+console.log(newarr)
+
