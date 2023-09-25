@@ -47,7 +47,7 @@ const new_users =
         
     ]
 
-console.log(new_users[1].email)
+// console.log(new_users[1].email)
 
 const mysyb = Symbol("key1")
 const js_user = {
@@ -60,8 +60,30 @@ const js_user = {
     lastlogin: ['Monday','Sunday']
 }
 
-console.log(Object.keys(js_user)) // get all keys from objects into array
-console.log(Object.values(js_user)) // get all values from objects into array
-console.log(Object.entries(js_user)) // get all objects into array
+// console.log(Object.keys(js_user)) // get all keys from objects into array
+// console.log(Object.values(js_user)) // get all values from objects into array
+// console.log(Object.entries(js_user)) // get all objects into array
 
-console.log(js_user.hasOwnProperty('lastlogin')) // is key exixted
+// console.log(js_user.hasOwnProperty('lastlogin')) // is key exixted
+
+
+// destructuring
+const course = {
+    coursename: "js in hindi",
+    price: 250,
+    courseinstractor: "Hitesh Sir"
+}
+
+const { courseinstractor:teacher } = course
+console.log(teacher)
+
+
+// API
+
+// Json
+// {
+//     "name": "Ravi",
+//     "email": "ravi@gmail.com"
+        
+// }
+
