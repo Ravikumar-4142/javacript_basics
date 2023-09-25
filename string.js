@@ -12,9 +12,14 @@ const gameName  = new String("Forza-      Horizon")
 // const newString = gameName.substring(0,4)
 // const newString = gameName.slice(-4, 4)
 
-// const newString =  name.trim()
-// console.log(name)
-// console.log(newString)
+const newString =  name.trim()
+setTimeout(function(){
+    console.log(name)    
+},
+5000);
+console.log(newString)
+/// settimeout function clear
 
 const url = "https:://ravi.com/ravi%20kumar"
 console.log(url.replace('%20','-'))
+
