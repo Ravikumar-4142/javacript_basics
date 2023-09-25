@@ -1,5 +1,7 @@
 const name = "         Ravi          "
 const repoCount = 50
+
+// String concatenation
 // console.log(`My Name is ${name} and my repo are ${repoCount}`)
 
 const gameName  = new String("Forza-      Horizon")
