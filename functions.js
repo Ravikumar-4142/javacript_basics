@@ -2,7 +2,7 @@
 function sayHello() {
     console.log("Hello Ravi")
 }
-sayHello();
+// sayHello();
 
 // function addTwonummbers(num1, num2) {
 //     console.log(num1 + num2);
@@ -24,4 +24,34 @@ function loginUserMsg(username) {
     return `${username} just logedin!`
 }
 
-console.log(loginUserMsg('Hello Ravi'))
+// console.log(loginUserMsg('Hello Ravi'))
+
+function calculatePrice(...num1) {
+    return num1
+}
+
+// console.log(calculatePrice(10,50,60))
+
+const user = {
+    username: "Hello Ravi",
+    price: 250,
+}
+
+function handleObject(anyobject) {
+    console.log(`User Name is ${anyobject.username} and price is ${anyobject.price}`)
+}
+handleObject(user)
+handleObject({
+    username: "Hello Ravi",
+    price: 250,
+}) // both are same
+
+
+// Array
+const myArray   = [120,220,230]
+function handleArray(getArray) {
+    return getArray[2]
+}
+
+console.log(handleArray(myArray))
+
