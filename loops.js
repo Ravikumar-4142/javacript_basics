@@ -64,17 +64,102 @@ let index = 0
 //     index = index + 2
 // }
 let arr = 0
-while (arr < myArray.length) {
-    console.log(`Value is: ${myArray[arr]} `);
-    arr = arr + 1;
+// while (arr < myArray.length) {
+//     console.log(`Value is: ${myArray[arr]} `);
+//     arr = arr + 1;
+// }
+
+
+// =============== Do While Loop ==============
+// let score = 1
+// do {
+//     console.log(`Value is: ${score} `);
+//     score++
+// } while (score <= 10);
+
+//=================== For Of Loop =================
+// for (const val of myArray) {
+//     console.log(`Hero is: ${val} `);
+// }
+
+// const greetings = "Hello word!"
+// for (const greet of greetings) {
+//     console.log(`Each Char: ${greet} `);
+// }
+
+// ====================== Maps ======================
+const   map = new Map()
+map.set('IN',"India")
+map.set('US',"United State Of America")
+map.set('FR',"France")
+map.set('NE', "Nepal")
+map.set('IN', "India")
+
+// console.log(map);
+// for Of lopp
+// for (const [key,val] of map) {
+//     console.log(key,':-', val);
+// }
+// forin not iteratable
+// for (const key in map) {
+//     console.log(key,':-', val);
+// }
+
+
+const myObj = {
+    "game1": "NFS",
+    "game2": "Spiderman"
 }
+// for (const [key,val] of myObj) {
+//     console.log(key,':-', val);
+// } => Not iteratable code
+
+//=================== For IN Loop =================
+// for (const key in myObj) {
+//     console.log(`${key} => ${myObj[key]}`);
+// }
+const programming = ['js', 'php', 'py', 'java', 'c', 'cpp']
+// for (const key in programming) {
+//     console.log(`${programminh[key]} `);
+// }
 
 
-// Do While Loop
-let score = 1
-do {
-    console.log(`Value is: ${score} `);
-    score++
-} while (score <= 10);
+// ======================== ForEach loop ==============
+// synatax 1
+// programming.forEach(function (val) {
+//     console.log(`${element} `);
+// })
+// synatax 2
+// programming.forEach(element =>{
+//     console.log(`${element} `);
+// });
+// syntax 3
+// function printme(item) {
+//     console.log(`${item} `);
+// }
+// programming.forEach(printme);
 
-// ForEach loop
+
+//========== Some other intrsting ==================
+// programming.forEach((item,index,arr) => {
+//     console.log(item, index, arr);
+// });
+
+const coding = [
+    {
+        languagename: "PHP",
+        languagefilename: ".php"
+    },
+    {
+        languagename: "JavaScript",
+        languagefilename: ".js"
+    },
+    {
+        languagename: "Python",
+        languagefilename: ".py"
+    }
+]
+
+coding.forEach((item) => { 
+    console.log(item.languagename);
+})
